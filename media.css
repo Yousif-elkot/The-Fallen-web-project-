@@ -1,0 +1,513 @@
+/* ======================== */
+/* page1 youssef Elkataoy  */
+/* ======================== */
+@media (max-width: 768px) {
+  .top-split_page1 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .image-side_page1 {
+    height: 400px; 
+  }
+
+  .text-side_page1 {
+    padding: 3rem 2rem;
+  }
+
+  .text-wrapper_page1 h1 {
+    font-size: 2.5rem;
+  }
+  
+  .bottom-banner_page1 {
+    height: 30vh;
+  }
+
+  .giant-title_page1 {
+    font-size: 4rem;
+    letter-spacing: 5px;
+  }
+}
+
+/* ======================== */
+/* page2 youssef Elmosalamy  */
+/* ======================== */
+
+/* Large Desktop */
+@media screen and (min-width: 1400px) {
+    .cont_pg2_flex { gap: 80px; width: 80%; }
+    .txt_box_left h1 { font-size: 48px; }
+    .txt_box_left p { font-size: 22px; }
+    .img_box_right img { max-width: 550px; }
+}
+
+/* Medium Desktop */
+@media screen and (max-width: 1399px) and (min-width: 1024px) {
+    .cont_pg2_flex { width: 88%; gap: 50px; }
+    .txt_box_left h1 { font-size: 38px; }
+    .txt_box_left p { font-size: 19px; }
+    .img_box_right img { max-width: 450px; }
+}
+
+/* Nest Hub Max */
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (max-height: 900px) {
+    .slider_red_sep { margin-bottom: 50px; width: 75%; }
+    .cont_pg2_flex { width: 90%; gap: 45px; }
+    .txt_box_left h1 { font-size: 36px; margin-bottom: 20px; }
+    .txt_box_left p { font-size: 18px; line-height: 1.7; }
+    .img_box_right img { max-width: 400px; }
+    .uni_btn { padding: 12px 28px; font-size: 16px; margin-top: 25px; }
+    .bottom_slider_red { margin-top: 50px; width: 75%; }
+}
+
+/* Tablets */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .slider_red_sep { width: 70%; margin-bottom: 50px; }
+    .cont_pg2_flex { flex-direction: column; width: 85%; gap: 40px; text-align: center; display: block; }
+    .txt_box_left { width: 100%; margin-bottom: 40px; }
+    .txt_box_left h1 br { display: none; }
+    .img_box_right { width: 100%; }
+    .bottom_slider_red { width: 70%; margin-top: 50px; }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .cont_pg2_flex { flex-direction: column; text-align: center; }
+    .txt_box_left h1 { font-size: 32px; }
+    .img_box_right img { max-width: 300px; margin-top: 30px; }
+}
+
+/* ======================== */
+/* page3 youssef rashad   */
+/* ======================== */
+
+/* Large Desktop */
+@media screen and (min-width: 1400px) {
+    .h1_gameplay { font-size: 72px; }
+    .elements_grid_3col { gap: 120px; }
+}
+
+/* Tablets */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .container_gameplay { max-width: 700px; }
+    .h1_gameplay { font-size: 52px; margin-bottom: 70px; }
+    .elements_grid_3col { grid-template-columns: 1fr; gap: 60px; margin-bottom: 70px; }
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .container_gameplay { max-width: 90%; }
+    .top_decoration_line { width: 60%; }
+    .h1_gameplay { font-size: 46px; margin-bottom: 60px; }
+    .elements_grid_3col { grid-template-columns: 1fr; gap: 55px; }
+}
+
+/* ======================== */
+/* page4 youssef Elshhawy   */
+/* ======================== */
+
+/* Nest Hub Max */
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (max-height: 900px) {
+    .parent_4th { margin: 3%; padding-top: 30px; gap: 20px; }
+    .hellow_text_wrap { width: 50%; }
+    .child_4th_text_header { font-size: 2.8em; }
+    .child_4th_text_desc { font-size: 18px; line-height: 1.4; }
+    .image_4th { width: 45%; max-width: 400px; }
+}
+
+/* Standard Tablets Portrait */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .parent_4th { flex-direction: column; align-items: center; gap: 40px; }
+    .hellow_text_wrap { width: 85%; text-align: center; align-items: center; }
+    .parent_4th_text { width: 100%; text-align: center; }
+    .image_4th { width: 70%; max-width: 500px; }
+    .uni_btn { align-self: center; }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 767px) {
+    .parent_4th { flex-direction: column; padding-top: 30px; gap: 30px; margin: 3%; }
+    .hellow_text_wrap { width: 100%; text-align: center; align-items: center; }
+    .image_4th { width: 85%; max-width: 400px; }
+    .uni_btn { align-self: center; }
+}
+
+/* ======================== */
+/* page5 youssef 3mira   */
+/* ======================== */
+
+/* Large Desktop */
+@media screen and (min-width: 1400px) {
+    .container_p5_flex { gap: 100px; }
+    .char_img_circle_wrap { max-width: 650px; }
+    .main_title_p5 { font-size: 5rem; }
+}
+
+/* Tablets */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .container_p5_flex { flex-direction: column; gap: 40px; text-align: center; width: 85%; }
+    .photo_side_left { order: -1; }
+    .char_img_circle_wrap { max-width: 450px; }
+    .text_side_right { width: 100%; align-items: center; }
+    .separator_p5 { width: 60%; margin: 18px auto 35px auto; }
+    .uni_btn { align-self: center; }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 767px) {
+    .container_p5_flex { flex-direction: column; gap: 35px; text-align: center; width: 90%; }
+    .photo_side_left { order: -1; }
+    .char_img_circle_wrap { max-width: 350px; }
+    .text_side_right { width: 100%; align-items: center; }
+    .main_title_p5 { font-size: 2.8rem; }
+    .sep_line_p5 { width: 70%; margin: 15px auto 30px auto; }
+    .uni_btn { align-self: center; }
+}
+
+/* ======================== */
+/* page6 youssef El7al   */
+/* ======================== */
+
+/* Large Desktop (1400px and above) */
+@media screen and (min-width: 1400px) {
+    .testimonials-container {
+        gap: 120px;
+    }
+    
+    .heading-section h2 {
+        font-size: 5em;
+    }
+    
+    .testimonial-item img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+/* Medium Desktop (1024px - 1199px) */
+@media screen and (max-width: 1199px) and (min-width: 1024px) {
+    .testimonials-container {
+        gap: 70px;
+        width: 92%;
+    }
+    
+    .heading-section h2 {
+        font-size: 3.8em;
+    }
+    
+    .testimonial-item img {
+        width: 130px;
+        height: 130px;
+    }
+    
+    .testimonial-content .quote {
+        font-size: 1.05em;
+    }
+}
+
+/* Nest Hub Max and landscape tablets */
+@media screen and (min-width: 1024px) and (max-width: 1280px) and (max-height: 900px) {
+    .testimonials-container {
+        gap: 60px;
+        padding: 15px;
+        width: 95%;
+    }
+    
+    .heading-section h2 {
+        font-size: 3.2em;
+    }
+    
+    .testimonials-list {
+        gap: 35px;
+    }
+    
+    .testimonial-item {
+        gap: 18px;
+    }
+    
+    .testimonial-item img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .testimonial-content strong {
+        font-size: 1.1em;
+        margin-bottom: 6px;
+    }
+    
+    .testimonial-content .quote {
+        font-size: 1em;
+        line-height: 1.6;
+    }
+}
+
+/* Nest Hub (1024x600) */
+@media screen and (min-width: 1024px) and (max-height: 600px) {
+    .testimonials-container {
+        gap: 40px;
+        padding: 15px 20px;
+        width: 96%;
+        padding-bottom: 40px;
+    }
+    
+    .heading-section h2 {
+        font-size: 2.5em;
+    }
+    
+    .testimonials-list {
+        gap: 25px;
+    }
+    
+    .testimonial-item {
+        gap: 15px;
+    }
+    
+    .testimonial-item img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .testimonial-content strong {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+    
+    .testimonial-content .quote {
+        font-size: 0.95em;
+        line-height: 1.5;
+    }
+}
+
+/* Tablets Portrait and Landscape (768px - 1023px) */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+    .testimonials-container {
+        gap: 50px;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    .heading-section {
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .heading-section h2 {
+        font-size: 3.5em;
+    }
+    
+    .testimonials-list {
+        gap: 40px;
+        align-items: center;
+    }
+    
+    .testimonial-item {
+        max-width: 600px;
+        width: 100%;
+    }
+    
+    .testimonial-item img {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* Mobile Landscape */
+@media screen and (max-width: 900px) and (max-height: 500px) {
+    .testimonials-container {
+        flex-direction: row;
+        gap: 30px;
+        padding: 15px;
+        border-bottom: 2px solid #b00000;
+        padding-bottom: 35px;
+    }
+    
+    .heading-section h2 {
+        font-size: 2em;
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+    }
+    
+    .testimonials-list {
+        gap: 20px;
+    }
+    
+    .testimonial-item {
+        gap: 12px;
+    }
+    
+    .testimonial-item img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .testimonial-content strong {
+        font-size: 0.95em;
+    }
+    
+    .testimonial-content .quote {
+        font-size: 0.9em;
+        line-height: 1.5;
+    }
+}
+
+/* Mobile Portrait */
+@media screen and (max-width: 767px) and (min-width: 481px) {
+    .testimonials-container {
+        flex-direction: column;
+        gap: 35px;
+        padding: 15px;
+        width: 95%;
+        border-bottom: none;
+    }
+
+    .heading-section {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .heading-section h2 {
+        font-size: 2.8em;
+    }
+    
+    .testimonials-list {
+        align-items: center;
+        gap: 35px;
+    }
+    
+    .testimonial-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        max-width: 90%;
+    }
+
+    .testimonial-item img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .testimonial-content {
+        max-width: 100%;
+    }
+
+    .testimonial-content .quote {
+        line-height: 1.7;
+        font-size: 1.05em;
+    }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+    .testimonials-container {
+        flex-direction: column;
+        gap: 30px;
+        padding: 10px;
+        width: 100%;
+        border-bottom: none;
+    }
+
+    .heading-section {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .heading-section h2 {
+        font-size: 2.5em;
+    }
+    
+    .testimonials-list {
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .testimonial-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        max-width: 90%;
+    }
+
+    .testimonial-item img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .testimonial-content {
+        max-width: 100%;
+    }
+    
+    .testimonial-content strong {
+        font-size: 1.15em;
+    }
+
+    .testimonial-content .quote {
+        line-height: 1.8;
+        font-size: 1em;
+    }
+}
+
+/* Extra Small Mobile */
+@media screen and (max-width: 360px) {
+    .heading-section h2 {
+        font-size: 2em;
+    }
+    
+    .testimonial-item img {
+        width: 90px;
+        height: 90px;
+    }
+    
+    .testimonial-content strong {
+        font-size: 1.05em;
+    }
+    
+    .testimonial-content .quote {
+        font-size: 0.95em;
+    }
+}
+
+/* ======================== */
+/* page7 youssef El7ma7my    */
+/* ======================== */
+
+@media (max-width: 1000px) {
+
+    .contact-section {
+        flex-direction: column;
+        padding: 30px;
+        height: auto;
+        gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info h2 {
+        font-size: 70px;
+        margin-bottom: 15px;
+    }
+
+    .contact-info p {
+        font-size: 35px;     /* bigger paragraph text */
+        line-height: 1.1;
+        margin-bottom: 25px; /* spacing between p and line */
+    }
+
+    .bottom-line {
+        width: 80%;
+        position: static;
+        margin: 10px auto 30px auto; /* spacing above & below */
+    }
+
+    .contact-image {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .contact-image img {
+        position: relative; 
+        width: 100%;        /* FULL width */
+        height: 65vh;       /* fills bottom part */
+        object-fit: cover;  /* looks clean */
+        border-radius: 10px;
+    }
+}
